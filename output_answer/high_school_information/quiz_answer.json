@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "textbook_name": "high_school_information",
+    "page_range": "56-57",
+    "total_questions": 2,
+    "difficulty": "중"
+  },
+  "answers": [
+    {
+      "id": 1,
+      "correct_option": "②",
+      "correct_text": "선구자",
+      "explanation": "'pioneer'는 '선구자'라는 뜻으로, 새로운 분야를 개척하거나 먼저 시작하는 사람을 의미합니다."
+    },
+    {
+      "id": 2,
+      "correct_option": "③",
+      "correct_text": "이후에",
+      "explanation": "'subsequently'는 '이후에, 나중에'라는 뜻으로, 어떤 사건이나 행동 뒤에 이어지는 것을 나타냅니다."
+    }
+  ]
+}

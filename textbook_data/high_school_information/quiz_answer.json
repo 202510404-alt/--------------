@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "textbook_name": "high_school_information",
+    "page_range": "23-54",
+    "total_questions": 1,
+    "difficulty": "하"
+  },
+  "answers": [
+    {
+      "id": 1,
+      "correct_option": "①",
+      "correct_text": "전략",
+      "explanation": "교과서 본문 하단에 'tactic: 책략, 전술'로 명시되어 있다. '전략'은 '책략' 또는 '전술'과 가장 유사한 의미를 가진다."
+    }
+  ]
+}

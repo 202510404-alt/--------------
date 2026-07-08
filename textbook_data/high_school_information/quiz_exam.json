@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "textbook_name": "high_school_information",
+    "page_range": "23-54",
+    "total_questions": 1,
+    "difficulty": "하"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_text": "다음 글의 밑줄 친 'tactics'의 의미로 가장 적절한 것은?\n\"Over time, such **tactics** cost more money and increase stress for employee and employer alike, and eventually will become the main reason people show up for work every day.\"",
+      "options": [
+        "① 전략",
+        "② 보상",
+        "③ 동기",
+        "④ 결과"
+      ]
+    }
+  ]
+}

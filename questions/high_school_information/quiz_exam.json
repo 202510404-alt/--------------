@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "textbook_name": "high_school_information",
+    "page_range": "11-24",
+    "total_questions": 2,
+    "difficulty": "중"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question_text": "다음 중 'diversity'의 의미로 가장 적절한 것은?",
+      "options": [
+        "유사성",
+        "다양성",
+        "단조로움",
+        "통일성"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question_text": "다음 중 'thoroughly'의 의미로 가장 적절한 것은?",
+      "options": [
+        "부분적으로",
+        "대략적으로",
+        "철저하게",
+        "우연히"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "textbook_name": "high_school_information",
+    "page_range": "11-24",
+    "total_questions": 2,
+    "difficulty": "중"
+  },
+  "answers": [
+    {
+      "id": 1,
+      "correct_option": "②",
+      "correct_text": "다양성",
+      "explanation": "'diversity'는 '다양성'을 의미합니다. 본문 12페이지에서 'cultural diversity'는 '문화적 다양성'으로 사용되어 공동체를 풍요롭게 한다는 의미를 전달합니다."
+    },
+    {
+      "id": 2,
+      "correct_option": "③",
+      "correct_text": "철저하게",
+      "explanation": "'thoroughly'는 '철저하게, 완전히'를 의미합니다. 본문 13페이지에서 심사위원의 의견을 'thoroughly as possible' 즉, '가능한 한 철저하게' 다루어 달라는 요청에 사용되었습니다."
+    }
+  ]
+}
