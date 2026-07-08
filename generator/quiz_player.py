@@ -93,7 +93,11 @@ class QuizPlayer:
             st.session_state.submitted = True
             st.session_state.selected = choice
 
-            if choice == a["correct_text"]:
+            # 선택한 보기에서 번호만 추출
+            selected_number = choice.split(".")[0].strip()
+
+            # 정답 번호와 비교
+            if selected_number == str(a["correct_option"]):
                 st.success("⭕ 정답입니다.")
                 st.session_state.score += 1
             else:

@@ -1,22 +1,28 @@
 {
   "meta": {
     "textbook_name": "high_school_information",
-    "page_range": "11-24",
-    "total_questions": 2,
-    "difficulty": "중"
+    "page_range": "12-21",
+    "total_questions": 3,
+    "difficulty": "상"
   },
   "answers": [
     {
       "id": 1,
-      "correct_option": "②",
-      "correct_text": "다양성",
-      "explanation": "'diversity'는 '다양성'을 의미합니다. 본문 12페이지에서 'cultural diversity'는 '문화적 다양성'으로 사용되어 공동체를 풍요롭게 한다는 의미를 전달합니다."
+      "correct_option": "4",
+      "correct_text": "문화적 다양성 존중과 공동체 의식 함양",
+      "explanation": "글에서 학교는 '문화적 다양성'을 자랑스럽게 여기며, 요리책 프로젝트가 '전 세계 가족들의 전통과 맛을 기념'하고 '다양성이 학교에 가져다주는 기쁨과 단결'을 반영한다고 언급하고 있습니다. 이는 궁극적으로 문화적 다양성을 존중하고 공동체 의식을 함양하려는 목적을 보여줍니다."
     },
     {
       "id": 2,
-      "correct_option": "③",
-      "correct_text": "철저하게",
-      "explanation": "'thoroughly'는 '철저하게, 완전히'를 의미합니다. 본문 13페이지에서 심사위원의 의견을 'thoroughly as possible' 즉, '가능한 한 철저하게' 다루어 달라는 요청에 사용되었습니다."
+      "correct_option": "3",
+      "correct_text": "멀리서 들려오는 엔진 소리와 군인들의 등장",
+      "explanation": "Francis Pohan은 처음에는 찬송가를 연주하며 행복과 평화를 느끼고 있었으나, '멀리서 들려오는 엔진 소리'와 '군인들의 등장'으로 인해 평화가 깨지고 심장이 뛰기 시작하며 두려움을 느끼게 됩니다. 이는 심경 변화의 직접적인 계기입니다."
+    },
+    {
+      "id": 3,
+      "correct_option": "2",
+      "correct_text": "노동 시장의 지역적 경계를 허물었다.",
+      "explanation": "밑줄 친 부분은 디지털 플랫폼과 클라우드워크로 인해 서비스 노동이 특정 장소에 묶이지 않고(less sticky), 지리적으로 멀리 떨어진 곳에서도 이루어질 수 있게 되었음을 의미합니다. 이는 뉴욕의 기업이 나이로비나 뉴델리의 프리랜서를 고용할 수 있는 사례에서 잘 드러나며, 노동 시장의 지역적 경계가 사라졌음을 나타냅니다."
     }
   ]
 }

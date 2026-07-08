@@ -1,31 +1,42 @@
 {
   "meta": {
     "textbook_name": "high_school_information",
-    "page_range": "11-24",
-    "total_questions": 2,
-    "difficulty": "중"
+    "page_range": "12-21",
+    "total_questions": 3,
+    "difficulty": "상"
   },
   "questions": [
     {
       "id": 1,
       "type": "multiple_choice",
-      "question_text": "다음 중 'diversity'의 의미로 가장 적절한 것은?",
+      "question_text": "Greenwood High School의 온라인 요리책 프로젝트가 궁극적으로 추구하는 가치로 가장 적절한 것은?",
       "options": [
-        "유사성",
-        "다양성",
-        "단조로움",
-        "통일성"
+        "1. 학생들의 요리 기술 향상",
+        "2. 학교 재정 수입 증대",
+        "3. 지역 사회와의 유대 강화",
+        "4. 문화적 다양성 존중과 공동체 의식 함양"
       ]
     },
     {
       "id": 2,
       "type": "multiple_choice",
-      "question_text": "다음 중 'thoroughly'의 의미로 가장 적절한 것은?",
+      "question_text": "다음 글에 드러난 Francis Pohan의 심경 변화를 유발한 결정적인 계기로 가장 적절한 것은?",
       "options": [
-        "부분적으로",
-        "대략적으로",
-        "철저하게",
-        "우연히"
+        "1. 찬송가 연주 연습의 성공",
+        "2. 숲 속의 평화로운 분위기",
+        "3. 멀리서 들려오는 엔진 소리와 군인들의 등장",
+        "4. 여동생 Ellen과의 긴급한 대화"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question_text": "다음 글의 밑줄 친 'made a lot of work less sticky'가 의미하는 바로 가장 적절한 것은?",
+      "options": [
+        "1. 고용주의 재정적 부담을 가중시켰다.",
+        "2. 노동 시장의 지역적 경계를 허물었다.",
+        "3. 전통적인 직업 윤리를 약화시켰다.",
+        "4. 기업의 물리적 인프라 투자를 장려했다."
       ]
     }
   ]
