@@ -55,6 +55,9 @@ class QuizPlayer:
 
         if "selected" not in st.session_state:
             st.session_state.selected = None
+        
+        if "answered" not in st.session_state:
+            st.session_state.answered = {}
 
         if st.session_state.current >= len(questions):
 
@@ -67,6 +70,7 @@ class QuizPlayer:
                 st.session_state.score = 0
                 st.session_state.submitted = False
                 st.session_state.selected = None
+                st.session_state.answered = {}
                 st.rerun()
 
             return
@@ -93,15 +97,29 @@ class QuizPlayer:
             st.session_state.submitted = True
             st.session_state.selected = choice
 
-            # 선택한 보기에서 번호만 추출
-            selected_number = choice.split(".")[0].strip()
+            current_id = q["id"]
 
-            # 정답 번호와 비교
-            if selected_number == str(a["correct_option"]):
-                st.success("⭕ 정답입니다.")
-                st.session_state.score += 1
+            # 이미 채점한 문제인지 확인
+            if current_id not in st.session_state.answered:
+
+                # 선택한 보기 번호 추출
+                selected_number = choice.split(".")[0].strip()
+
+                # 정답 비교
+                if selected_number == str(a["correct_option"]):
+                    st.success("⭕ 정답입니다.")
+                    st.session_state.score += 1
+                    st.session_state.answered[current_id] = True
+                else:
+                    st.error("❌ 오답입니다.")
+                    st.session_state.answered[current_id] = False
+
             else:
-                st.error("❌ 오답입니다.")
+                # 이미 채점된 문제면 결과만 출력
+                if st.session_state.answered[current_id]:
+                    st.success("⭕ 정답입니다.")
+                else:
+                    st.error("❌ 오답입니다.")
 
         if st.session_state.submitted:
 
